@@ -44,7 +44,14 @@ public class CodeScanner extends AppCompatActivity implements View.OnClickListen
             {
                 if (result.getContents()!=null){
                     AlertDialog.Builder builder=new AlertDialog.Builder(this);
+                    /**
+                        final TextView textView = new TextView(this);
+                       textView.setText(result.getContents()); //Might need to typecast to string.
+                       textView.setMovementMethod(LinkMovementMethod.getInstance());
+                    */
                     builder.setMessage(result.getContents());
+                    //Instead of the above line use the line below.
+//                     builder.setView(textView);
                     builder.setTitle("Scanning Result");
                     builder.setPositiveButton("Scan Again", new DialogInterface.OnClickListener() {
                         @Override
