@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "718243491209",
+    "firebase_url": "https://namaskara-d0182.firebaseio.com",
+    "project_id": "namaskara-d0182",
+    "storage_bucket": "namaskara-d0182.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718243491209:android:6c542ff17008ebdbd3c558",
+        "android_client_info": {
+          "package_name": "info.mycanteen.mycanteen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "718243491209-0st0cb74ooa3ai9kpesdjees3k3av80p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5vHa1p9J-w8yBofCzcEZ1d9W7ZOsug-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "718243491209-0st0cb74ooa3ai9kpesdjees3k3av80p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
